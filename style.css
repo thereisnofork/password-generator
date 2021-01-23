@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(159, 75, 238);
+  display: flex;
+}
+
+#box {
+  margin: 200px auto;
+  background-color: rgb(104, 24, 179);
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 30px -5px rgba(0, 0, 0, 0.2) inset;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#show {
+  background-color: rgb(77, 20, 131);
+  border-radius: 3px;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  margin: 20px 0;
+}
+#clipboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  border: 0ch;
+  padding: 5px;
+  background-color: rgb(159, 75, 238);
+  color: #ffffff;
+  cursor: pointer;
+  height: 80%;
+  border-radius: 2px;
+}
+#clipboard:focus {
+  outline: 0ch;
+}
+#clipboard:active {
+  transform: scale(0.98);
+}
+#pass {
+  display: inline-block;
+  font-size: 19px;
+  position: absolute;
+  left: 5px;
+}
+#passLent {
+  width: 35px;
+  border-radius: 3px;
+  border: 0ch;
+  padding: 1px 2px;
+}
+#passLent:focus {
+  outline: 0;
+}
+.setings {
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Generate {
+  width: 100%;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgb(159, 75, 238);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: 1px 3px 30px -5px rgba(0, 0, 0, 0.2) inset;
+}
+#Generate:focus {
+  outline: 0;
+}
+#Generate:active {
+  transform: scale(0.98);
+}
+.checkbox {
+  cursor: pointer;
+}
